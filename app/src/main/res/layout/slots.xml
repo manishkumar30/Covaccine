@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="4dp"
+    >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_margin="10dp"
+    android:layout_marginBottom="40dp"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameView"
+        android:textColor="@color/blue"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="1) G.B.Pant Hospital DH SITE 2"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+         />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age : 45+"
+        android:textColor="@color/red"
+        android:textSize="20sp"
+        android:id="@+id/AgeView"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COVISHIELD"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textColor="@color/black"
+        android:id="@+id/vac"
+        />
+
+    <LinearLayout
+        android:id="@+id/doses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D1\n45"
+            android:id="@+id/d1"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="#090404"
+            android:fontFamily="sans-serif-light"
+            android:background="#E0D0E3"
+            android:padding="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total\n90"
+            android:id="@+id/dose"
+            android:textSize="40sp"
+            android:textColor="#090404"
+            android:background="#a7d093"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D2\n45"
+            android:id="@+id/d2"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="#090404"
+            android:fontFamily="sans-serif-light"
+            android:background="#E0D0E3"
+            android:padding="5dp"
+            />
+    </LinearLayout>
+
+<TextView
+    android:id="@+id/book"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Booked"
+    android:textSize="30sp"
+    android:layout_gravity="center"
+    android:textAlignment="center"
+    android:textColor="#FDFBFB"
+    android:background="@color/red"
+    android:textStyle="bold"
+    android:padding="5dp"
+    android:layout_marginBottom="10dp"
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/dd"
+    android:text="D1 : Dose1 \t\t\t\t\t D2 : Dose2"
+    android:layout_gravity="center"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:textSize="15sp"
+    />
+
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

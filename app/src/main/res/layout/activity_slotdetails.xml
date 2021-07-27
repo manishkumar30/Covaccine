@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Slotdetails">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" VaccineTracker"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:drawableLeft="@drawable/vac"
+        android:textSize="35sp"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:textAlignment="textStart"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_margin="10dp"
+        android:id="@+id/logo"
+        tools:ignore="RtlCompat" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toBottomOf="@id/logo"
+    app:layout_constraintLeft_toLeftOf="parent"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="10dp"
+    android:id="@+id/centre"
+    android:textSize="20sp"
+    android:text="Center name"
+    android:drawableLeft="@drawable/ic_baseline_apartment_24"
+    android:textColor="@color/black"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/centre"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:text="Address"
+        android:id="@+id/address"
+        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/address"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:text="COVISHIELD"
+        android:id="@+id/vaccine"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/ic_baseline_local_hospital_24"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/address"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:textSize="20sp"
+        android:text="Age : 45+"
+        android:id="@+id/age"
+        android:textColor="@color/red"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/age"
+        android:gravity="center"
+        android:text="Availablility"
+        android:textSize="30sp"
+        android:textColor="@color/blue"
+        android:layout_marginTop="40dp"
+        android:id="@+id/ava"
+        android:textAlignment="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/ava"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/slot"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total\n45"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:id="@+id/total"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D1\n45"
+            android:layout_marginLeft="50dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:id="@+id/dose1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D2\n45"
+            android:layout_marginLeft="50dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:id="@+id/dose2"
+            />
+
+    </LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toBottomOf="@id/slot"
+    android:layout_marginTop="10dp"
+    android:text="D1 : Dose1     D2 : Dose2"
+    android:textColor="@color/black"
+    android:gravity="center"
+    android:textAlignment="center"
+    android:textSize="20dp"
+    />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/slot"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="80dp"
+        android:text="Register/Sign In yourself"
+        android:onClick="cowin"
+        android:backgroundTint="#F47B1E"
+        android:textColor="@color/black"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
