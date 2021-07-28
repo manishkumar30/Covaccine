@@ -5,9 +5,11 @@ An android app in which user can track the availability of vaccine slots and reg
 <img width="300" alt="device-2021-07-27-225734" src="https://user-images.githubusercontent.com/87971964/127262594-1cb96f3d-4540-40f0-a1d4-37ea20179848.png"> <img width="300" alt="device-2021-07-27-224144" src="https://user-images.githubusercontent.com/87971964/127262597-622b6504-9d34-422f-8653-7d39d4d2ed0d.png"> 
 
 # VaccineTracker
-<img width="300" alt="device-2021-07-27-225409" src="https://user-images.githubusercontent.com/87971964/127262619-93255ffa-271d-4d86-bb7a-14b3a51b6f0d.png"> <img width="300" alt="device-2021-07-27-225443" src="https://user-images.githubusercontent.com/87971964/127263175-c1d9db00-011b-4870-85c6-a56b576a9b27.png"> <img width="300" alt="device-2021-07-27-225516" src="https://user-images.githubusercontent.com/87971964/127263177-6d1d6f1a-dd55-4ab1-bc7b-d2b7b3ffadca.png"> 
+<img width="300" alt="device-2021-07-27-225409" src="https://user-images.githubusercontent.com/87971964/127262619-93255ffa-271d-4d86-bb7a-14b3a51b6f0d.png"> <img width="300" alt="device-2021-07-27-225443" src="https://user-images.githubusercontent.com/87971964/127263175-c1d9db00-011b-4870-85c6-a56b576a9b27.png"> 
 
-<img width="300" alt="device-2021-07-27-225620" src="https://user-images.githubusercontent.com/87971964/127263186-be8dc54c-a764-4cac-9334-5c1ce2021333.png"> <img width="300" alt="device-2021-07-27-225655" src="https://user-images.githubusercontent.com/87971964/127263528-9864d222-a94f-45eb-bc54-a57e0e468774.png"> <img width="300" alt="device-2021-07-28-100954" src="https://user-images.githubusercontent.com/87971964/127264894-747a1731-96f6-4831-8ff2-52c742656e44.png">
+<img width="300" alt="device-2021-07-27-225516" src="https://user-images.githubusercontent.com/87971964/127263177-6d1d6f1a-dd55-4ab1-bc7b-d2b7b3ffadca.png"> <img width="300" alt="device-2021-07-27-225620" src="https://user-images.githubusercontent.com/87971964/127263186-be8dc54c-a764-4cac-9334-5c1ce2021333.png">
+
+<img width="300" alt="device-2021-07-27-225655" src="https://user-images.githubusercontent.com/87971964/127263528-9864d222-a94f-45eb-bc54-a57e0e468774.png"> <img width="300" alt="device-2021-07-28-100954" src="https://user-images.githubusercontent.com/87971964/127264894-747a1731-96f6-4831-8ff2-52c742656e44.png">
 
 # CovidTracker
 
